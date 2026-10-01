@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "images": "node scripts/generate-images.js"
+    "images": "node scripts/generate-images.js",
+    "build:pages": "node scripts/build-pages.js"
   },
   "dependencies": {
     "vue": "^3.5.43",

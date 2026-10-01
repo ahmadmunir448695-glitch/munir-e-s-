@@ -44,7 +44,20 @@ Copy any product block in `src/data/products.js`, give it a new unique `id`, and
 - Sticky header, mobile hamburger menu & search, scroll-to-top, page transitions, empty search state
 - Responsive: 2 products per row on phones, up to 4 on desktop
 
-## Deploying
+## Live on GitHub Pages (free)
+
+The `docs/` folder is a ready-built copy of the site for GitHub Pages: **https://ahmadmunir448695-glitch.github.io/munir-e-s-/**
+
+To turn it on (once): repo **Settings → Pages → Source: Deploy from a branch → Branch: `main`, folder `/docs` → Save**.
+
+After editing the site, rebuild and push:
+```bash
+npm run build:pages
+git add -A && git commit -m "Update site" && git push
+```
+The base path (`/munir-e-s-/`, the repo name) is set in `scripts/build-pages.js`. If you rename the repo, change it there.
+
+## Deploying elsewhere
 `npm run build` and upload `dist/` to any static host (Netlify, Vercel, Cloudflare Pages…).
 `public/_redirects` (Netlify) and `vercel.json` (Vercel) are included so links like `/products/indus-bracket-fan` work when opened directly.
 
