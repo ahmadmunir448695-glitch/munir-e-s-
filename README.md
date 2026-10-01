@@ -1,7 +1,7 @@
 # Munir Electric Store — Website
 
 Frontend-only product catalogue for **Munir Electric Store** (Phone / WhatsApp **0308-3380368**).
-**Live site:** https://phenomenal-baklava-e95a2d.netlify.app (Netlify, rebuilds automatically on every push to `main`)
+**Live site:** https://munirelectricstore.netlify.app (Netlify, rebuilds automatically on every push to `main`)
 · Mirror: https://ahmadmunir448695-glitch.github.io/munir-e-s-/
 
 Built with **Vue 3 + Vite + Tailwind CSS** (plain JavaScript). There is no backend: customers browse products and send inquiries on WhatsApp.
