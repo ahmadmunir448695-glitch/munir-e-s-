@@ -1,0 +1,13 @@
+# Netlify settings (picked up automatically when the repo is connected).
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Single-page app: product links like /products/indus-bracket-fan load the app.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
